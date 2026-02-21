@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# TypeScript output
+# Compiled JS files and source maps
+/**/*.js
+/**/*.js.map
+/**/*.tsbuildinfo
+
+# If you have a specific output directory (e.g., 'dist' or 'build')
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# IDE and OS files
+# VS Code
+.vscode-test/
+# OS generated files
+.DS_Store
+*.swp
+
+# NPM cache and logs
+.npm/
+*.log
+npm-debug.log*
+
